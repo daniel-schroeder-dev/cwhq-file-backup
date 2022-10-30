@@ -1,6 +1,6 @@
-# CWHQ File Zipper
+# CWHQ File Backup
 
-The CWHQ File Zipper allows CWHQ users to create compressed archives of project folders and download them locally.
+The CWHQ File Backup script allows CWHQ users to create compressed archives of project folders and download them locally.
 
 ## Installation
 
@@ -14,7 +14,7 @@ You'll need to provide two pieces of configuration each time you run the app:
 1. Your CWHQ username
 2. Your preferred archive format
 
-The `CREATE_ARCHIVE` option 
+
 
 
 ## Contributing
