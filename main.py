@@ -60,7 +60,13 @@ def view_archives():
         print("You don't have any compressed archive files yet!")
         return
 
+    print("\nCurrent archives\n")
+    print("#" * 60)
+    print()
     print(*[path.name for path in sorted(root_archive_path.iterdir())], sep="\n")
+    print()
+    print("#" * 60)
+    print()
 
 
 def view_archive_html_path():
