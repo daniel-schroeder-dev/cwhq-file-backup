@@ -72,6 +72,7 @@ def view_archives():
 
 def view_archive_html_path():
     """Displays the URL of HTML file holding links to all archived folders."""
+
     archive_html_path = username_root_url + archive_html_filename
     print(f"Go to {archive_html_path} to download all compressed archive files")
 
