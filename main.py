@@ -2,6 +2,7 @@ from pathlib import Path
 from shutil import make_archive, rmtree, copytree
 from string import Template
 
+
 def build_html_file():
     """Builds an HTML file which you can view to download the compressed archives."""
 
@@ -38,7 +39,7 @@ def create_temp_files(folder_starts_with: str, temp_folder_archive_path: Path) -
     Creates a temporary folder to hold all files with `folder_starts_with` as the start of the path.
 
     We need this because it is easy to zip all of the folders at once if they are in a central location
-    like this temporary folder. The `temp_folder_archive_path` will be removed after we create the 
+    like this temporary folder. The `temp_folder_archive_path` will be removed after we create the
     compressed archive files.
     """
 

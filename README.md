@@ -8,6 +8,8 @@ Create a file called `main.py` in the root of your Editor's file system and copy
 
 ## Usage
 
+See this [video walkthrough](https://drive.google.com/file/d/18x8GLyto9r30wwibHXU8btsi7hztJOnc/view?usp=share_link) if the explanation below is not sufficient.
+
 Run the `main.py` file to execute the app. 
 
 You'll need to provide two pieces of configuration each time you run the app:
